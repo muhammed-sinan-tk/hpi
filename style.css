@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width:500px) {
+    .kppo {
+        display: flex;
+    }
+
+    .GOOD{
+        color: #333;
+    }
+
+
+    .swiper-slide{
+        margin-top: 240px;
+    }
+
+    .card{
+
+        margin-top: 20px;
+    }
+
+
+}
+
+.why-choose-us {
+    background-color: #6600ff;
+    height: 100vh !important;
+}
+
+.why-choose-img img {
+    width: 100%;
+    height: auto;
+}
+
+.section-title h3, .section-title h2 {
+    margin: 0;
+}
+
+.why-choose-body {
+    padding: 1em;
+}
+
+.why-choose-list {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-list li {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+    .why-choose-us {
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .why-choose-img, .section-title, .why-choose-body {
+        text-align: center;
+    }
+
+    .why-choose-list {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .col-lg-5, .col-lg-7 {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+.service-card {
+    background-color: #f8f9fa;
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.service-card img {
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.read-more i {
+    background-color: #6600ff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: white;
+}
+
+.views-all-services {
+    border: solid 1px white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.views-all-services:hover {
+    background-color: #fff;
+    color: #6600ff;
+    text-decoration: none;
+}
+
+/* General styling to ensure images are responsive */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 608px) {
+    .carousel-item img {
+        width: 100%;
+        height: 333px;
+    }
+
+    .carousel-caption {
+        font-size: 14px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px !important;
+        color: #fff;
+    }
+
+    .carousel-caption p {
+        font-size: 15px !important;
+        color: #fff;
+    }
+
+   
+}
+
+
+.custom-button {
+    background-color: #6600ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #5500cc;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 500px;
+}
+
+.hoi {
+    background-image: url(img/banner1-min.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    background-position: inherit;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.596);
+    background-color: #0056b3;
+    
+}
+
+figure img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-custom {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 450px;
+}
+
+.card-custom img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.g {
+    margin-top: 50px;
+}
+
+/* General Styles */
+footer.main-footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Site Branding */
+.site-branding .site-footer-logo img {
+    max-width: 100px;
+}
+
+.footer-social-link ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-link ul li a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-social-link ul li a:hover {
+    color: #007bff;
+}
+
+/* Footer Menu */
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-menu ul li a:hover {
+    color: #007bff;
+}
+
+/* Site Navigation */
+
+
+.no-gutters img{
+    width: 30%;
+}
+
+/* Common styles */
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.main-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-footer ul li:last-child {
+    margin-right: 0;
+}
+
+.main-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for laptop/desktop */
+@media screen and (min-width: 992px) {
+    .site-branding,
+    .footer-menu,
+    .site-navigation {
+        margin-bottom: 30px;
+    }
+
+    .site-navigation {
+        text-align: right;
+    }
+
+    .footer-social-link ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-social-link ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+/* Styles for tablets */
+@media screen and (max-width: 991px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .site-navigation {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+    .col-lg-5 {
+        text-align: center;
+    }
+
+    .navigation-box {
+        text-align: center;
+    }
+
+    .footer-menu ul {
+        text-align: center;
+    }
+}
+
+
+.page-header.parallaxie {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/penerjemah.jpg');
+    transition: background-image 0.5s ease-in-out;
+    background-color: #33333352;
+}
+
+.page-header.parallaxie9{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/shutterstock6\ \(2\).jpg');
+    transition: background-image 0.5s ease-in-out;
+    background-color: #33333352;
+}
+.page-header.parallaxie-8{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/penerjemah.jpg');
+    transition: background-image 0.5s ease-in-out;
+    background-color: #33333352;
+}
+
+/* Additional styles for demonstration */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.btn-custom {
+    background-color: #6600ff;
+    border: none;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.footer-social-link ul li a:hover {
+    color: #ffffff;
+    opacity: 0.7;
+}
+.footer-menu a:hover,
+.footer-menu a:focus,
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.our-approach-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h3 {
+    font-size: 28px;
+    color: #333;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.step-box {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.step-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.step-icon img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.step-body h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.step-body p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
